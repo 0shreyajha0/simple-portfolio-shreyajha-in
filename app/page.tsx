@@ -8,7 +8,7 @@ export default function Page() {
         <Image
           src="/profile.png"
           alt="Profile photo"
-          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
+          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 hover:shadow-lg"
           unoptimized
           width={160}
           height={160}
@@ -16,48 +16,50 @@ export default function Page() {
         />
       </a>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio, made simple!
+        Empowering ideas, delivering excellence!
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
-        </p>
-        <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
+          Hi, I’m Shreya, a Product Manager at {""}
+          <a target="_blank" href="https://www.pw.live/">
+            Physics Wallah
           </a>
-          .
+          , where I work on creating impactful learning products that empower
+          students. I love solving problems and building products that users
+          genuinely enjoy. I rely on data to guide my decisions and use
+          structured thinking to break down complex challenges into simple
+          solutions 🍃.
         </p>
         <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
+          Collaboration is a big part of my work, I work closely with tech teams
+          to ensure smooth implementation, business teams to align on goals, and
+          marketing teams to help take products to users. Whether it’s
+          brainstorming new ideas, analyzing data, or improving user journeys, I
+          focus on creating meaningful and impactful experiences.
         </p>
         <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
+          I specialize in user research, agile methodologies, cross-functional
+          collaboration, and driving products from ideation to launch 🚀.
+        </p>
+        <h3 className="mb-4 text-1xl font-medium tracking-tight">
+          What I Bring to the Table
+        </h3>
+        <p>
+          Collaboration and user feedback are at the heart of everything I do, I
+          believe great solutions come from understanding people 👥.
         </p>
         <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
+          I love building products that solve real problems and create value for
+          both users and businesses 📈.
+        </p>
+        <p>
+          I have a knack for breaking down big challenges into simple, scalable
+          steps that work.
+        </p>
+        <p>
+          I’m experienced with tools for A/B testing, Data Centric Research,
+          PRDs, Agile Methodologies and Journey mappings to ensure every product
+          decision is impactful.
         </p>
       </div>
     </section>

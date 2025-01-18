@@ -1,19 +1,24 @@
 import Link from "next/link";
 import { ThemeSwitch } from "./theme-switch";
 import { metaData } from "../config";
+import { Dancing_Script } from 'next/font/google';
 
 const navItems = {
   "/blog": { name: "Blog" },
-  "/projects": { name: "Projects" },
-  "/photos": { name: "Photos" },
+  // "/projects": { name: "Projects" },
 };
+
+const dancingScript = Dancing_Script({
+  subsets: ['latin'],
+  weight: ['700'], // Include the weights you want to use
+});
 
 export function Navbar() {
   return (
-    <nav className="lg:mb-16 mb-12 py-5">
+    <nav className="lg:mb-14 mb-10 py-5">
       <div className="flex flex-col md:flex-row md:items-center justify-between">
         <div className="flex items-center">
-          <Link href="/" className="text-3xl font-semibold tracking-tight">
+          <Link href="/" className={`text-4xl font-semibold tracking-tight ${dancingScript.className}`}>
             {metaData.title}
           </Link>
         </div>

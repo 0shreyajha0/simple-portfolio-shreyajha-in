@@ -1,6 +1,6 @@
 export const metaData = {
-  baseUrl: "https://nextfolio-template.vercel.app/",
-  title: "Nextfolio",
+  baseUrl: "https://www.shreyajha.in/",
+  title: "Shreya Jha",
   name: "Sirius",
   ogImage: "/opengraph-image.png",
   description:
@@ -8,9 +8,9 @@ export const metaData = {
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/1tssirius",
-  github: "https://github.com/1msirius/Nextfolio",
+  twitter: "https://x.com/_Shreyajha/",
+  github: "https://github.com/0shreyajha0",
   instagram: "https://www.instagram.com/",
-  linkedin: "https://www.linkedin.com/",
-  email: "mailto:example@gmail.com",
+  linkedin: "https://www.linkedin.com/in/shreyajha-productmanager/",
+  email: "mailto:0shreyajha0@gmail.com",
 };
