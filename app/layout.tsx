@@ -8,6 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { ThemeProvider } from "./components/theme-switch";
 import { metaData } from "./config";
+import Script from 'next/script'
 
 export const metadata: Metadata = {
   metadataBase: new URL(metaData.baseUrl),
@@ -74,6 +75,16 @@ export default function RootLayout({
           title="JSON Feed"
         />
         <link rel="icon" href="/favicon.png" />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-4Q13Z16ECF"></Script>
+        <Script>
+          {`
+            window.dataLayer = window.dataLayer || [];̛
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-4Q13Z16ECF');
+          `}
+        </Script>
       </head>
       <body className="antialiased flex flex-col items-center justify-center mx-auto mt-2 lg:mt-8 mb-20 lg:mb-40">
         <ThemeProvider
