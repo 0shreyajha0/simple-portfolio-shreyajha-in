@@ -9,6 +9,7 @@ import Footer from "./components/footer";
 import { ThemeProvider } from "./components/theme-switch";
 import { metaData } from "./config";
 import Script from 'next/script'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   metadataBase: new URL(metaData.baseUrl),
@@ -86,6 +87,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
+      <GoogleTagManager gtmId="GTM-T8NB9FDW"/>
       <body className="antialiased flex flex-col items-center justify-center mx-auto mt-2 lg:mt-8 mb-20 lg:mb-40">
         <ThemeProvider
           attribute="class"
