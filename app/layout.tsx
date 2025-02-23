@@ -76,7 +76,7 @@ export default function RootLayout({
         />
         <link rel="icon" href="/favicon.png" />
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-4Q13Z16ECF"></Script>
-        <Script>
+        <Script id="gtag-init" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];̛
             function gtag(){dataLayer.push(arguments);}
