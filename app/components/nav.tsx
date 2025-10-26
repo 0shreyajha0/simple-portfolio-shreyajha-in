@@ -5,7 +5,7 @@ import { Dancing_Script } from 'next/font/google';
 
 const navItems = {
   "/blog": { name: "Blog" },
-  // "/projects": { name: "Projects" },
+  "/portfolio": { name: "Portfolio" },
 };
 
 const dancingScript = Dancing_Script({
