@@ -27,22 +27,22 @@ export default function Projects() {
                     ))}
                 </div>
             </section>
-            <section className="mt-3">
-                <h1 className="mb-1 text-2xl font-medium tracking-tight">PRDs</h1>
-                <p className="mb-6">Here are some PRDs I have worked on:</p>
-                <div>
-                    {portfolio.prd.map((project, index) => (
-                        <PortfolioItem
-                            title={project.title}
-                            description={project.description}
-                            url={project.url}
-                            imageUrl={project.imageUrl}
-                            dateAndTime={project.dateAndTime}
-                            index={index}
-                        />
-                    ))}
-                </div>
-            </section>
+            {/*<section className="mt-3">*/}
+            {/*    <h1 className="mb-1 text-2xl font-medium tracking-tight">PRDs</h1>*/}
+            {/*    <p className="mb-6">Here are some PRDs I have worked on:</p>*/}
+            {/*    <div>*/}
+            {/*        {portfolio.prd.map((project, index) => (*/}
+            {/*            <PortfolioItem*/}
+            {/*                title={project.title}*/}
+            {/*                description={project.description}*/}
+            {/*                url={project.url}*/}
+            {/*                imageUrl={project.imageUrl}*/}
+            {/*                dateAndTime={project.dateAndTime}*/}
+            {/*                index={index}*/}
+            {/*            />*/}
+            {/*        ))}*/}
+            {/*    </div>*/}
+            {/*</section>*/}
         </>
     );
 }
